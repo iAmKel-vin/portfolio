@@ -1,0 +1,148 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    overflow: hidden;
+    font-family: 'Geologica', sans-serif;
+    height: 100vh;
+    width: 100%;
+    background-color: #515358;
+    color: #e4dedee0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+h2{
+    margin: 0;
+    padding: 0;
+}
+.cont-mycolor{
+    display: flex;
+    gap: 10px;
+    position: absolute;
+    top: 0;
+
+}
+.mycolor{
+    background-color: aqua;
+    height: 30px;
+    width: 30px;
+}
+
+main{
+    display: flex;
+    flex-direction: column;
+    background: radial-gradient(circle, #282a2f 4%,#1f2226 26%,#1B1D22 70%);
+    height:80%;
+    width: 90%;
+    padding: 20px 30px;
+}
+header{
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: start;
+}
+
+header > h1{
+    margin: 0;
+    margin-right: auto;
+    padding: 0;
+
+}
+
+header > ul{
+    margin: 0;
+    padding: 0;
+    color: rgb(216, 205, 205);
+    list-style-type: none;
+    text-align: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+
+}
+ul > i{
+    margin: 0px 1px;
+    padding: 5px 10px;
+    background-color: #c6ae6d;
+
+}
+
+/* section 2 */
+
+.section2{
+    flex: 4;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    
+}
+.center{
+
+    display: flex;
+    flex-direction: column;
+}
+.section2 div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+.section2  .gold-rod{
+    height: 3px;
+    width: 200px;
+    background-color: #D8C07D;
+    font-weight: 300;
+}
+
+.section2 .name{
+    font-weight: 900;
+    font-size: 2.7rem;
+}
+
+.section2 .career {
+    display: flex;
+    flex-direction: column;
+    align-self: flex-end;
+}
+.career p{
+    font-size: .7rem;
+    font-weight: 700;
+    margin: 0;
+    padding: 0;
+    color: #D8C07D;
+}
+
+/*  SECTION 3 */
+
+
+
+.section3{
+    flex: 1;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    
+
+}
+
+.section3 .icons{
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+    margin-bottom: 50px;
+
+}
+.section3 .signature{
+    color: #D8C07D;
+    margin-bottom: 50px;
+
+}
+
+
